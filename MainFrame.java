@@ -35,6 +35,7 @@ public class MainFrame extends JFrame {
 
 		setSize(500, 500);
 		setVisible(true);
+		setLocationRelativeTo(null);
 	}
 
 	private class TopPanelAL implements ActionListener {
